@@ -80,7 +80,7 @@ nav{
   align-items: center;
   margin-left: 3em;
   margin-right: 3em;
-  padding: 3em 6em 6em 2em;
+  padding: 9em 6em 6em 2em;
   gap: 1em;
 }
 
@@ -159,9 +159,10 @@ nav{
   font-family: 'Lato', sans-serif;
   padding: 0.8em 1em;
   border-radius: 0.5em;
-  border: none;
+  border: 1px;
   font-size: 18px;
   font-weight: bold;
+  text-decoration: none;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -171,42 +172,77 @@ nav{
   cursor: pointer;
 }
 
-#btn-projetos:hover {
-  background-color: var(--corAzul);
-  color: var(--corBranco);
-  border-color: var(--corAzul);
-  border-style: solid;
+#projetos{
+  margin: 10em 1em 10em;
 }
 
+.group-cards{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 9em;
+
+  gap: 1.5em;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 #card-projetos {
+  background-color: var(--corBranco);
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border: 1px solid #ccc;
   border-radius: 10px;
-  margin: 10px;
-  padding: 20px;
-  width: 200px; /* Ajuste conforme necessário */
-  height: 300px; /* Ajuste conforme necessário */
+  margin: 2px 0 0 0;
+  padding-top: 2.5em;
+  width: 400px; /* Ajuste conforme necessário */
+  height: 550px; /* Ajuste conforme necessário */
+  margin-bottom: 20px;
+  box-shadow: 4px 4px 5px 3px #929499;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Adiciona uma transição suave para a cor de fundo, texto e borda */
 }
 
 #card-projetos img {
-  width: 100%;
-  height: 50%; /* Metade da altura dedicada à imagem */
+  width: 93%;
+  height: 50%; /* Ajuste para 100% da altura, para cobrir metade do card */
   object-fit: cover;
-  border-radius: 10px 10px 0 0;
+  border-radius: 8px ;
+  margin-top: 1.1em;
 }
 
+
 #card-projetos h3 {
-  margin-top: 10px;
+  font-family: 'Supercell';
+  color: var(--corPreto);
+  transition: color 0.3s; 
+  padding: 1em; /* Adiciona preenchimento à parte superior do título */
+  margin: 0; /* Remove a margem padrão para evitar espaçamento extra */
 }
 
 #card-projetos p {
-  font-size: 14px;
-  color: #555;
-  margin-top: 5px;
+  font-family: 'Lato';
+  color: var(--corPreto);
+  padding: 2em; /* Adiciona preenchimento à parte inferior do parágrafo */
+  margin: 0; /* Remove a margem padrão para evitar espaçamento extra */
 }
+
+#card-projetos > div {
+  padding: 20px; /* Padding para a parte inferior do card */
+}
+
+#card-projetos:hover {
+  background-color: var(--corPreto);
+  color: var(--corBranco);
+  border-color: var(--corAzul); /* Cor azul ao passar o mouse */
+  border-style: solid;
+  border-width: 3px;
+}
+
+#card-projetos:hover h3,
+#card-projetos:hover p {
+  color: var(--corBranco); /* Texto branco ao passar o mouse */
+}
+
 
 

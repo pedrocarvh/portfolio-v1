@@ -10,7 +10,7 @@ Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre mim, meu
 
 1. **[Blog](https://github.com/pedrocarvh/blog):** Projeto para prática de conceitos básicos web.
 2. **[TicTacToe](https://github.com/pedrocarvh/tictactoe):** Prática de manipulação de DOM.
-3. **[Calculadora](lhttps://pedrocarvh-calculator.netlify.app/):** Exercício de manipulação de DOM.
+3. **[Calculadora](https://pedrocarvh-calculator.netlify.app/):** Exercício de manipulação de DOM.
 3. **[Hounorte](https://github.com/pedrocarvh/Hounorte):** Aplicação Web - Usando JAVA + Firebase
 3. **[Hotel Las Vegas](https://pedrocarvh.github.io/OrdepOlavrac/#home):** Práticas de POO em Java
 

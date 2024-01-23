@@ -1,4 +1,4 @@
-# [Pedro Carvalho] - Portfólio
+# Pedro Carvalho - Portfólio
 
 Bem-vindo ao meu portfólio! Aqui você encontrará informações sobre mim, meus projetos e minhas habilidades.
 

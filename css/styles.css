@@ -40,10 +40,8 @@ body{
   min-height: 100vh;
 }
 
-main{
-  background: url(/images/Fundo\ Home.png) no-repeat center center;
-  background-size: cover;
-  height: 82vh;
+main {
+  height: 84vh;
 }
 
 /* ------------------------------------------------ NAV BAR ------------------------------------------------  */
@@ -59,7 +57,7 @@ nav{
 }
 
 .logo-text { 
-  font-size: 24px;
+  font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 0px;
   font-family: Acropolis;
@@ -70,7 +68,7 @@ nav{
 
 .text-nav{
   font-family: "Supercell";
-  font-size: 16px;
+  font-size: 12px;
   color: var(--corCinza);
   text-decoration: none;
   transition: 0.3s;
@@ -158,83 +156,87 @@ nav{
 
 /* ------------------------------------------------ NAV BAR ------------------------------------------------  */
 
+/* ------------------------------------------------ QUEM SOU EU ------------------------------------------------  */
 
-.tittle-home{
-  font-family: Acropolis;
-  color: var(--corBranco);
-  
-  margin:-0.2em;
-}
 
-.list-item{
-  font-family: Supercell;
-  text-decoration: none;
-  list-style-type: none;
-  font-size: 12vm;
-}
-
-.list-item a:hover{
-  color: var(--corBranco);
-}
-
-.list-item a{
-  color: var(--corCinza);
-  text-decoration: none;
-}
-
-#inicio{
+.about{
+  width: 100%;
+  height: 100vh;
+  background: var(--corBranco);
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  margin-left: 3em;
-  margin-right: 3em;
-  padding: 9em 6em 6em 2em;
-  gap: 1em;
 }
 
-#image-inicio{
-  width: 40em;
-  height: 30em;
+.about .content img{
+  height: auto;
+  width: 600px;
+  max-width: 100%;
 }
 
-#title-inicio{
-  font-family: Steelfish;
+.text{
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.content{
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text .section-title {
+  font-family: Lato;
   color: var(--corAzul);
-  font-size: 6vh;
+  font-size: 28px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+
 }
 
-#name-dev{
-  font-family: Staatliches
-  ;
+.text .developer-name {
   color: var(--corPreto);
-  font-size: 7vh;
-  padding-top: 0.4em;
-  margin-bottom: -0.3em;
+  font-family: Staatliches;
+  font-size: 46px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
 }
 
-#formation{
-  font-family: 'Lato', sans-serif;;
+.developer-title {
+  font-family: 'Lato', sans-serif;
   color: var(--corCinza);
-  font-size: 2.9vh;
-  padding-top: -0.3;
-  margin-bottom: 2em;
+  font-size: 1.5vw;
+  padding-top: 1vw;
+  margin-bottom: 2vh;
   transition: color 0.3s;
 }
 
-#formation:hover {
-  color: var(--corAzul); /* Cor ao passar o mouse */
+.developer-title:hover {
+  color: var(--corAzul);
 }
 
-#text-inicio{
+.intro-text {
   font-family: Lato;
   color: var(--corPreto);
-  font-size: 2.9vh;
-  padding-bottom: 2em;
+  font-size: 1.4vw;
+  padding-bottom: 2vh;
   line-height: 1.5;
 }
 
-#icons {
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.icon-link {
   font-size: 1.3em;
   color: var(--corAzul);
   border: 3px solid #e0e0e0; /* Cinza claro */
@@ -243,24 +245,17 @@ nav{
   transition: border-color 0.3s; /* Adiciona uma transição suave para a cor da borda */
 }
 
-#icons:hover {
+.icon-link:hover {
   border-color: var(--corAzul); /* Ao passar o mouse, a borda fica azul */
 }
 
-#list-icons{
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 1em;
-}
-
-#btn-projetos {
+.btn-about {
   width: auto;
   max-width: 200px;
   background-color: var(--corAzul);
   color: var(--corBranco);
   font-family: 'Lato', sans-serif;
-  padding: 0.8em 1em;
+  padding: 0.8vh 1vw;
   border-radius: 0.5em;
   border: 1px;
   font-size: 18px;
@@ -270,11 +265,17 @@ nav{
   overflow: hidden;
   text-overflow: ellipsis;
   transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave para a cor de fundo e o texto */
-
-  /* Adiciona uma animação específica ao passar o mouse */
   cursor: pointer;
 }
 
+.btn-projetos:hover {
+  background-color: var(--corBranco);
+  color: var(--corAzul);
+}
+
+/* ------------------------------------------------ QUEM SOU EU ------------------------------------------------  */
+
+/* ------------------------------------------------ PROJETOS ------------------------------------------------  */
 #projetos{
   display: flex;
   flex-direction: column;

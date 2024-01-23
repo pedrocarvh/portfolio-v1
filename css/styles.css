@@ -190,20 +190,20 @@ nav{
   justify-content: space-around;
 }
 
-.text .section-title {
-  font-family: Lato;
+.section-title {
+  font-family: "Supercell";
   color: var(--corAzul);
-  font-size: 28px;
+  font-size: 16px;
   margin-bottom: 8px;
   text-transform: capitalize;
 
 }
 
-.text .developer-name {
+.developer-name {
   color: var(--corPreto);
   font-family: Staatliches;
   font-size: 46px;
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   text-transform: capitalize;
   letter-spacing: 2px;
 }
@@ -211,9 +211,9 @@ nav{
 .developer-title {
   font-family: 'Lato', sans-serif;
   color: var(--corCinza);
-  font-size: 1.5vw;
-  padding-top: 1vw;
-  margin-bottom: 2vh;
+  font-size: 18px;
+  margin-bottom: 36px;
+  text-transform: capitalize;
   transition: color 0.3s;
 }
 
@@ -224,9 +224,10 @@ nav{
 .intro-text {
   font-family: Lato;
   color: var(--corPreto);
-  font-size: 1.4vw;
-  padding-bottom: 2vh;
-  line-height: 1.5;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
 }
 
 .contact-icons {
@@ -237,40 +238,63 @@ nav{
 }
 
 .icon-link {
-  font-size: 1.3em;
+  font-size: 34px;
   color: var(--corAzul);
-  border: 3px solid #e0e0e0; /* Cinza claro */
-  border-radius: 0.2em;
-  padding: 2px 14px 2px 14px;
+  border: 2px solid #e0e0e0; /* Cinza claro */
+  border-radius: 10px;
+  padding: 2px 6px;
   transition: border-color 0.3s; /* Adiciona uma transição suave para a cor da borda */
 }
 
 .icon-link:hover {
-  border-color: var(--corAzul); /* Ao passar o mouse, a borda fica azul */
+  transform: scale(1.08);
+  background-color: var(--corBranco);
+  border: 2px solid var(--corAzul);
+  color: var(--corAzul);
+  transition: .4s;
+  cursor: pointer;
 }
 
 .btn-about {
-  width: auto;
-  max-width: 200px;
   background-color: var(--corAzul);
   color: var(--corBranco);
-  font-family: 'Lato', sans-serif;
-  padding: 0.8vh 1vw;
+  border: 2px solid transparent;
   border-radius: 0.5em;
-  border: 1px;
+  text-decoration: none;
+  padding: 10px 28px;
   font-size: 18px;
   font-weight: bold;
-  text-decoration: none;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  font-family: 'Lato', sans-serif;
+
+
   transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave para a cor de fundo e o texto */
   cursor: pointer;
 }
 
-.btn-projetos:hover {
+.btn-about:hover {
+  transform: scale(1.08);
   background-color: var(--corBranco);
+  border: 2px solid var(--corAzul);
   color: var(--corAzul);
+  transition: .4s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1180px){
+  .about{
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+  }
+}
+@media screen and (max-width: 650){
+  .about .content img{
+    margin-bottom: 35px;
+  }
+  .section-title{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
 }
 
 /* ------------------------------------------------ QUEM SOU EU ------------------------------------------------  */

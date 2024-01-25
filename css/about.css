@@ -1,0 +1,147 @@
+
+#about{
+  width: 100%;
+  height: 100vh;
+  background: var(--corBranco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content img{
+  height: auto;
+  width: 600px;
+  max-width: 100%;
+}
+
+.text{
+  width: 550px;
+  max-width: 100%;
+  padding: 0 10px;
+}
+
+.content{
+  width: 1280px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-title {
+  font-family: "Supercell";
+  color: var(--corPreto);
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-transform: capitalize;
+}
+
+.developer-name {
+  color: var(--corRoxo);
+  font-family: Staatliches;
+  font-size: 46px;
+  margin-bottom: 2px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.developer-title {
+  font-family: 'Lato', sans-serif;
+  color: var(--corCinza);
+  font-size: 18px;
+  margin-bottom: 36px;
+  text-transform: capitalize;
+  transition: color 0.3s;
+}
+
+.developer-title:hover {
+  color: var(--corRoxo);
+}
+
+.intro-text {
+  font-family: Lato;
+  color: var(--corPreto);
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 45px;
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1em;
+}
+
+.icon-link {
+  font-size: 34px;
+  color: var(--corRoxo);
+  border: 2px solid #e0e0e0; /* Cinza claro */
+  border-radius: 10px;
+  padding: 2px 6px;
+  transition: border-color 0.3s; /* Adiciona uma transição suave para a cor da borda */
+}
+
+.icon-link:hover {
+  transform: scale(1.08);
+  background-color: var(--corBranco);
+  border: 2px solid var(--corRoxo);
+  color: var(--corRoxo);
+  transition: .4s;
+  cursor: pointer;
+}
+
+.btn-about {
+  background-color: var(--corRoxo);
+  color: var(--corBranco);
+  border: 2px solid transparent;
+  border-radius: 0.5em;
+  text-decoration: none;
+  padding: 10px 28px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Lato', sans-serif;
+  transition: background-color 0.3s, color 0.3s; /* Adiciona uma transição suave para a cor de fundo e o texto */
+  cursor: pointer;
+}
+
+.btn-about:hover {
+  transform: scale(1.08);
+  background-color: var(--corBranco);
+  border: 2px solid var(--corRoxo);
+  color: var(--corRoxo);
+  transition: .4s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1180px){
+  .about{
+    width: 100%;
+    height: auto;
+    padding: 10px 20px;
+  }
+
+  .contact-icons{
+    flex-wrap: wrap;
+    flex: 1 50%; /* 2 ícones por linha */
+    max-width: none;
+  }
+}
+
+@media screen and (max-width: 650){
+  .about .content img{
+    margin-bottom: 35px;
+  }
+  .section-title{
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  .contact-icons{
+    display: block;
+  }
+}
+
+

@@ -1,0 +1,96 @@
+footer{
+  flex-shrink: 0;
+  background-color: var(--corPreto);
+}
+
+#section-footer {
+  padding: 80px 13% 70px;
+  /* Outros estilos para a section dentro do footer, se necessário */
+}
+
+.footer{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+  gap: 1.5rem;
+  background-color: var(--corPreto);
+}
+
+.logo-text { 
+  font-size: 22px;
+  height: 10vh;
+}
+
+.footer-content h4{
+  color: var(--corBranco);
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+.footer-content li{
+  margin-bottom: 16px;
+  color: #d6d6d6;
+  list-style: none;
+}
+
+.footer-content li a{
+  display: block;
+  color: #d6d6d6;
+  font-size: 15px;
+  font-weight: 400;
+  transition: all .40s ease;
+
+}
+.li-footer:hover{
+  transform: translateY(-3px) translateX(-5px);
+  color: #fff;
+}
+
+.footer-content p{
+  color: #d6d6d6;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0;
+}
+
+.icons a{
+  display: inline-block;
+  font-size: 22px;
+  color: #d6d6d6;
+  margin-right: 17px;
+  transition: all .40s ease;
+}
+.icons a:hover{
+  color: #fff;
+  transform: translateY(-5px);
+}
+
+@media (max-width:1690px){
+  #section-footer{
+    padding: 50px 5% 40px;
+  }
+}
+
+@media (max-width:1120px){
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,auto));
+    gap: 2rem
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    display: grid;
+    grid-template-columns: 1fr; /* Apenas uma coluna */
+    gap: 2.5rem;
+    text-align: center;
+  }
+
+  .footer > * {
+    margin: 0 auto; /* Centraliza horizontalmente */
+  }
+}
+
+
+
+

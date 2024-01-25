@@ -12,16 +12,21 @@
   height: auto;
   width: 600px;
   max-width: 100%;
+  transition: transform 0.3s;
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 
 .text{
-  width: 550px;
+  width: 50%;
   max-width: 100%;
   padding: 0 10px;
+  margin-top: 20px;
 }
 
 .content{
-  width: 1280px;
+  width: 100%;
   max-width: 95%;
   margin: 0 auto;
   display: flex;
@@ -31,28 +36,24 @@
 }
 
 .section-title {
-  font-family: "Supercell";
+  font-family: "Lato";
   color: var(--corPreto);
-  font-size: 16px;
+  font-size: 38px;
   margin-bottom: 8px;
-  text-transform: capitalize;
 }
 
 .developer-name {
   color: var(--corRoxo);
-  font-family: Staatliches;
-  font-size: 46px;
+  font-family:"Supercell";
+  font-size: 50px;
   margin-bottom: 2px;
-  text-transform: capitalize;
-  letter-spacing: 2px;
 }
 
 .developer-title {
   font-family: 'Lato', sans-serif;
   color: var(--corCinza);
-  font-size: 18px;
-  margin-bottom: 36px;
-  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: 66px;
   transition: color 0.3s;
 }
 
@@ -61,12 +62,25 @@
 }
 
 .intro-text {
-  font-family: Lato;
-  color: var(--corPreto);
-  font-size: 18px;
-  line-height: 28px;
-  letter-spacing: 1px;
-  margin-bottom: 45px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+.intro-text p {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.intro-text:hover {
+  background-color: var(--corRoxo);
+  color:var(--corBranco);
 }
 
 .contact-icons {
@@ -143,5 +157,28 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .text {
+    width: 100%;
+  }
+
+  .developer-title {
+    font-size: 28px;
+  }
+
+  .intro-text {
+    font-size: 26px;
+    line-height: 24px;
+  }
+  .content img{
+    display: none;
+  }
+
+  .icon-link{
+    font-size:60px;
+  }
+}
+
 
 

@@ -17,7 +17,7 @@
   font-family: 'Supercell', sans-serif;
   text-align: center;
   padding-bottom: 66px;
-  color:#fff;
+  color:#E1E1E6;
   text-shadow: 0 5px 10px rgba(0,0,0,.2);
   font-size: 22px;
   letter-spacing: 1px;
@@ -32,7 +32,7 @@
 .container .box-container .box{
   box-shadow: 0 5px 10px rgba(0,0,0,.2);
   border-radius: 5px;
-  background: #fff;
+  background: #202024;
   text-align: center;
   padding:26px 20px;
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
@@ -43,13 +43,13 @@
 }
 
 .container .box-container .box h3{
-  color:#444;
+  color:#E1E1E6;
   font-size: 22px;
   padding:10px 0;
 }
 
 .container .box-container .box p{
-  color:#777;
+  color:#E1E1E6;
   font-size: 15px;
   line-height: 1.8;
   

@@ -30,6 +30,7 @@
   max-width: 95%;
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
@@ -43,7 +44,7 @@
 }
 
 .developer-name {
-  color: var(--corRoxo);
+  color: #8257E5;
   font-family:"Supercell";
   font-size: 50px;
   margin-bottom: 2px;
@@ -58,7 +59,7 @@
 }
 
 .developer-title:hover {
-  color: var(--corRoxo);
+  color:var(--corPreto);
 }
 
 .intro-text {
@@ -72,16 +73,6 @@
   line-height: 1.6;
 }
 
-.intro-text p {
-  color: #333;
-  font-size: 28px;
-  margin-bottom: 15px;
-}
-
-.intro-text:hover {
-  background-color: var(--corRoxo);
-  color:var(--corBranco);
-}
 
 .contact-icons {
   display: flex;
@@ -92,7 +83,7 @@
 
 .icon-link {
   font-size: 34px;
-  color: var(--corRoxo);
+  color: #8257E5;
   border: 2px solid #e0e0e0; /* Cinza claro */
   border-radius: 10px;
   padding: 2px 6px;
@@ -102,14 +93,14 @@
 .icon-link:hover {
   transform: scale(1.08);
   background-color: var(--corBranco);
-  border: 2px solid var(--corRoxo);
-  color: var(--corRoxo);
+  border: 2px solid #8257E5;
+  color: #8257E5;
   transition: .4s;
   cursor: pointer;
 }
 
 .btn-about {
-  background-color: var(--corRoxo);
+  background-color: #8257E5;
   color: var(--corBranco);
   border: 2px solid transparent;
   border-radius: 0.5em;

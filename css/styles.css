@@ -12,7 +12,7 @@
   --corPreto: #000000;
   --corPreto2: #0b0b0b;
   --corBranco: #FFFFFF;
-  --corRoxo: #534091;
+  --corRoxo: #8257E5;
   --corAzul: #2D85F3;
   --corCinza: #878787;
   --corBranco2: #F6F6F6;
@@ -52,7 +52,7 @@
 }
 
 body{
-  background-color: #efefef;
+  background-color: #E1E1E6;
   min-height: 100vh;
   overflow-x: hidden;
 }

@@ -1,34 +1,38 @@
 #about-2 {
-  height: 100vh;
+  height: auto;
   width: 100vw;
-  background-color: #fff;
-  padding: 40px;
-  overflow: hidden; /* Para esconder a sombra fora da borda */
+  background-color: #121214;
+  padding: 80px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza verticalmente */
+  overflow: hidden;
 }
 
 .pedro-info {
   width: 90vw;
   max-width: 999px;
   height: auto;
-  background-color: antiquewhite;
+  background-color:#202024;
   padding: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   margin: auto auto;
-  border-radius: 14px;
+  gap: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 
 .pedro-img {
-  margin-right: 20px;
   width: 50%;
   max-width: 200px;
   border-radius: 50%; /* Transforma a imagem em um círculo */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
-  animation: rotate 4s linear infinite; /* Adiciona uma animação de rotação */
 }
 
 @keyframes rotate {
@@ -44,35 +48,50 @@
 .pedro-text {
   margin-left: 20px;
   width: 50%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-  color: #333;
+  color: #E1E1E6;
   font-size: 24px;
   margin-bottom: 10px;
+  font-family: Supercell;
 }
 
 p {
+  font-family: 'Poppins',sans-serif;
   margin: 10px 0;
-  color: #555;
+  color: #E1E1E6;
   font-size: 16px;
   line-height: 1.5;
+  text-align: justify;
+  
 }
 
 strong {
-  color: #333;
+  color: #8257E5;
   font-weight: bold;
 }
 
-#about-2:hover {
-  background-color: #333;
-  color: #fff;
-  transition: background-color 0.3s, color 0.3s;
+.pedro-info:hover{
+  border: 4px solid #8257E5;
+  text-align: justify;
 }
+
 
 @media (max-width: 999px) {
   .pedro-info{
-    width: 80vw;
+    padding: 0px;
+    width: 100%;
     flex-direction: column;
+  }
+  .pedro-text{
+    width: 100%;
+  }
+  #about-2{
+    width: 100%;
+    height: 100%;
   }
 }

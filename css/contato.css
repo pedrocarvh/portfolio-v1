@@ -1,60 +1,75 @@
 #contato{
+  font-family: 'Plus Jakarta Sans';
   box-sizing: border-box;
-  background: linear-gradient(#7401E1, #a363aa);
+  background-color: #121214;
+  height: auto;
 }
 .contact-container{
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: center;
+  padding: 80px;
 }
 
 .contact-left{
+  background-color: #202024;
+  padding: 40px;
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 20px;
+  border-radius: 12px;
 }
 
-.contact-left-title h2{
+.contact-left-title{
   font-weight: 600;
-  color: var(--corBranco);
-  font-size: 40px;
-  margin-bottom: 5px;
+  color: #E1E1E6;
+  font-size: 30px;
+  margin-bottom: 2px;
 }
 
-.contact-left-title hr{
+.contact-left hr{
   border: none;
   width: 120px;
   height: 5px;
-  background-color: var(--corBranco);
+  background-color: #7650CF;
   border-radius: 10px;
   margin-bottom: 20px;
 }
 
-.contact-inputs{
+.contact-inputs-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
   width: 400px;
   height: 50px;
   border: none;
   outline: none;
   padding-left: 25px;
   font-weight: 500;
-  color: #a363aa;
-  border-radius: 50px;
+  color: #7650CF;
+  border-radius: 8px;
+  background-color: #121214;
 }
 
-.contact-left textarea{
-  height: 140px;
-  padding-top: 10px;
-  border-radius: 20px;
+.contact-left textarea {
+  width: 400px; /* Altura mínima definida para a textarea */
+  padding-top: 16px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
 }
 
-.contact-inputs:focus{
-  border: 2px solid #2D85F3;
+
+.contact-inputs-div:focus-within {
+  border: 3px solid #7650CF;
 }
 
-.contact-inputs::placeholder{
-  color: #a9a9a9
+.contact-inputs-div::placeholder{
+  color: #5E5E5E;
 }
 
 .contact-left button{
@@ -62,12 +77,23 @@
   align-items: center;
   padding: 15px 30px;
   font-size: 16px;
-  color: #fff;
+  color: #E1E1E6;
   gap: 10px;
-  border: nome;
-  border-radius: 50px;
-  background-color: #7401E1;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(65, 53, 107);
   cursor: pointer;
+}
+
+.contact-inputs{
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  color: #E1E1E6;
+}
+
+.contact-left button:hover{
+  background-color: #7650CF;
 }
 
 .contact-left button img{
@@ -75,14 +101,18 @@
 }
 
 .contact-right img{
-  width: 500px;
+  width: 400px;
 }
 
+
+
+
+
 @media (max-width: 999px) {
-  .contact-inputs{
-    width: 80vw;
-  }
   .contact-right{
     display: none;
+  }
+  .contact-inputs-div,.contact-left textarea{
+    width: 100%;
   }
 }

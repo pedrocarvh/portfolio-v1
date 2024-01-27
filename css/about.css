@@ -46,7 +46,7 @@
 .developer-name {
   color: #8257E5;
   font-family:"Supercell";
-  font-size: 50px;
+  font-size: 3.5rem;
   margin-bottom: 2px;
 }
 
@@ -171,5 +171,15 @@
   }
 }
 
+@media screen and (max-width: 500px) {
+  .developer-name {
+    font-size: 2.5rem;
+  }.developer-title{
+    font-size: 1.2rem;
+  }
+  .icon-link{
+    font-size: 36px;
+  }
+}
 
 

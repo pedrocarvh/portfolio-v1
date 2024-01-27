@@ -18,16 +18,16 @@ var swiper = new Swiper(".slide-content", {
     0: {
       slidesPerView: 1,
     },
-    520: {
+    666: {
       slidesPerView: 2,
     },
-    768: {
+    888: {
       slidesPerView: 3,
     },
-    950: {
+    1410: {
       slidesPerView: 4,
     },
-    1445: {
+    1645: {
       slidesPerView: 5,
     }
   },

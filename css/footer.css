@@ -13,6 +13,7 @@ footer{
   grid-template-columns: repeat(auto-fit,minmax(200px,auto));
   gap: 1.5rem;
   background-color: var(--corPreto);
+  text-align: center;
 }
 
 .logo-text { 
@@ -50,6 +51,7 @@ footer{
   font-size: 16px;
   line-height: 30px;
   margin: 20px 0;
+  text-align: center;
 }
 
 .icons a{

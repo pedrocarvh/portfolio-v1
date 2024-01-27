@@ -1,16 +1,15 @@
-
 .main-experiencia {
 	box-sizing: border-box;
 	width: 100%;
 	height: 100%;
 	display: grid;
 	place-items: center;
-	background-color: var(--corPreto);
-	padding: 80px 0;
+	background-color: #121214;
+	padding: 80px 0px 160px 0;
 }
 .main-experiencia .head-experiencia {
 	font-size: 22px;
-	color: var(--corBranco);
+	color: #E1E1E6;
 	position: relative;
 	margin-bottom: 60px;
 	font-weight: 500;
@@ -51,7 +50,7 @@
 	width: 50%;
 	height: auto;
 	padding: 15px 20px;
-	background-color: #fff;
+	background-color: #202020;
 	border-radius: 8px;
 	box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.218);
 	position: relative;
@@ -90,7 +89,7 @@ ul li .date {
 	position: absolute;
 	width: 280px;
 	height: 33px;
-	background-color: var(--corRoxo);
+	background-color: #8257E5;
 	border-radius: 6px;
 	top: -45px;
 	display: grid;
@@ -99,7 +98,7 @@ ul li .date {
 	font-size: 16px;
   transition: all 0.3s ease;
 	box-shadow: var(--degrade);
-  font-family: 'Lato';
+  font-family: 'Poppins',sans-serif;
 }
 
 .container-experiencia ul li:nth-child(odd) {
@@ -117,21 +116,22 @@ ul li:nth-child(odd) .date {
 	transform: translateX(30px);
 }
 ul li .heading {
-	font-size: 14px;
+	font-size: 13px;
 	color: var(--corRoxo);
   font-family: "Supercell";
 }
 ul li p {
-	font-family: 'Lato';
-	font-size: 13px;
-	color: #000000;
-	line-height: 18px;
-	margin: 6px 0 4px 0;
+	font-family: 'Poppins',sans-serif;
+  margin: 10px 0;
+  color: #E1E1E6;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
 }
 ul li a {
 	font-size: 13px;
 	text-decoration: none;
-	color: var(--corRoxo);
+	color: #8257E5;
 	transition: all 0.3s ease;
 }
 
@@ -191,6 +191,7 @@ ul li a {
 
 .container-experiencia ul li:hover {
 	transform: scale(1.05);
+	border: 2px solid #8257E5;
 }
 
 .container-experiencia ul li:hover .date {
@@ -226,5 +227,8 @@ ul li a {
 @media only screen and (max-width: 798px) {
 	.container-experiencia ul li {
 			transition: none; /* Remover a transição em dispositivos móveis */
+	}
+	.main-experiencia .head-experiencia {
+		padding-bottom: 50px;
 	}
 }

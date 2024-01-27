@@ -104,10 +104,6 @@
   width: 400px;
 }
 
-
-
-
-
 @media (max-width: 999px) {
   .contact-right{
     display: none;

@@ -123,10 +123,10 @@
 }
 
 @media screen and (max-width: 1180px){
-  .about{
+  #about{
     width: 100%;
-    height: auto;
-    padding: 10px 20px;
+    height: 100vh;
+    padding: 60px 20px;
   }
 
   .contact-icons{

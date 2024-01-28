@@ -6,6 +6,9 @@ Olá, eu sou [Pedro Carvalho]! 👋 Aqui está um vislumbre do meu mundo colorid
 
 Sou um(a) [Engenheiro e Desenvolvedor de Software], apaixonado(a) por desafios criativos e por transformar ideias em realidade através de código e design.
 
+> Um pouco do portfólio.
+![Portfolio](https://github.com/pedrocarvh/portfolio-v1/blob/main/images/portfolio.png)
+
 ## 💡 O que Você Encontrará Aqui
 
 Neste espaço único, você descobrirá:

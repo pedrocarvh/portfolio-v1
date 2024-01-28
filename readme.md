@@ -1,6 +1,6 @@
 # 🌟 Bem-vindo(a) ao Meu Canto! 🚀
 
-Olá, eu sou [Pedro Carvalho]! 👋 Aqui está um vislumbre do meu mundo colorido e inovador, onde a tecnologia encontra a criatividade.
+Olá, eu sou Pedro Carvalho! 👋 Aqui está um vislumbre do meu mundo tecnologico e inovador, onde a tecnologia encontra a criatividade.
 
 ##  Quem Sou Eu
 

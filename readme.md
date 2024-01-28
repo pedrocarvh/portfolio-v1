@@ -2,7 +2,7 @@
 
 Olá, eu sou [Pedro Carvalho]! 👋 Aqui está um vislumbre do meu mundo colorido e inovador, onde a tecnologia encontra a criatividade.
 
-## 🌈 Quem Sou Eu
+##  Quem Sou Eu
 
 Sou um(a) [Engenheiro e Desenvolvedor de Software], apaixonado(a) por desafios criativos e por transformar ideias em realidade através de código e design.
 

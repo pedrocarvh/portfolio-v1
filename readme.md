@@ -31,7 +31,8 @@ Neste espaço único, você descobrirá:
    - ✨ Tecnologias utilizadas: [HTML,CSS,JS]
    - [https://github.com/pedrocarvh/blog]
 
-## 📫 Como Me Encontrar [pedrocarvalho.pca@gmail.com]
+## 📫 Como Me Encontrar 
+- Gmail: [pedrocarvalho.pca@gmail.com]
 - 💼 LinkedIn: [[pedrocarvalhoalmeida](https://www.linkedin.com/in/pedrocarvalhoalmeida/)]
 - 🐦 Instragram: [pedrocarvh]
 

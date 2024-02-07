@@ -20,17 +20,17 @@ Neste espaço único, você descobrirá:
 ## 🚀 Projetos Incríveis
 
 1. **[Hounorte]**
-   - 🌟 Breve descrição cativante do projeto.
+   - 🌟 
    - ✨ Tecnologias utilizadas: [JAVA e Firebase]
    - [https://github.com/pedrocarvh/Hounorte]
 
 2. **[Portfolio]**
-   - 🚀 Breve descrição envolvente do projeto.
+   - 🚀 
    - ✨ Tecnologias utilizadas: [HTML,CSS,JS]
    - [https://github.com/pedrocarvh/portfolio-v1]
 
 3. **[Blog Opinião Rubro Negra]**
-   - 🎨 Breve descrição artística do projeto.
+   - 🎨 
    - ✨ Tecnologias utilizadas: [HTML,CSS,JS]
    - [https://github.com/pedrocarvh/blog]
 

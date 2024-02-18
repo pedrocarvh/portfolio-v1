@@ -21,6 +21,8 @@
   align-items: start;
   gap: 20px;
   border-radius: 12px;
+  margin: 0;
+  margin-left: 0px;
 }
 
 .contact-left-title{
@@ -94,6 +96,7 @@
 
 .contact-left:hover{
   border: 2px solid #7650CF;
+  margin-left: -10px
 }
 
 .contact-left button:hover{

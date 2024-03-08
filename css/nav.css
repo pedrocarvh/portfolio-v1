@@ -1,23 +1,23 @@
-
-
 nav{
   display: flex;
   justify-content: space-around;
   align-items: center;
   background: var(--corPreto);
-  height: 16vh;
   text-decoration: none;
-
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  padding: 0 24px;
+  z-index: 100;
 }
 
-.logo-text { 
-  font-size: 22px;
-  height: 10vh;
+.logo-text {
+  height: 50px;
 }
 
 .text-nav{
   font-family: "Supercell";
-  font-size: clamp(0.5em, 0.5em + 0.5vw, 1.5em);
+  font-size: 11.6px;
   color: var(--corCinza);
   text-decoration: none;
   transition: 0.3s;

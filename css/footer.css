@@ -4,8 +4,7 @@ footer{
 }
 
 #section-footer {
-  padding: 80px 13% 70px;
-  /* Outros estilos para a section dentro do footer, se necessário */
+  padding: 10px 5% 10px;
 }
 
 .footer{
@@ -14,11 +13,7 @@ footer{
   gap: 1.5rem;
   background-color: var(--corPreto);
   text-align: center;
-}
-
-.logo-text { 
-  font-size: 22px;
-  height: 10vh;
+  align-items: center;
 }
 
 .footer-content h4{
@@ -68,7 +63,7 @@ footer{
 
 @media (max-width:1690px){
   #section-footer{
-    padding: 50px 5% 40px;
+    padding: 10px 5% 10px;
   }
 }
 

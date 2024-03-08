@@ -23,6 +23,7 @@
   border-radius: 12px;
   margin: 0;
   margin-left: 0px;
+  border: 2px solid transparent;
 }
 
 .contact-left-title{
@@ -39,6 +40,7 @@
   background-color: #7650CF;
   border-radius: 10px;
   margin-bottom: 20px;
+  
 }
 
 .contact-inputs-div{
@@ -55,6 +57,7 @@
   color: #7650CF;
   border-radius: 8px;
   background-color: #121214;
+  border: 3px solid transparent;
 }
 
 .contact-left textarea {
@@ -67,7 +70,7 @@
 
 
 .contact-inputs-div:focus-within {
-  border: 3px solid #7650CF;
+  border-color: #7650CF;;
 }
 
 .contact-inputs-div::placeholder{
@@ -95,8 +98,7 @@
 }
 
 .contact-left:hover{
-  border: 2px solid #7650CF;
-  margin-left: -10px
+  border-color:  #7650CF;
 }
 
 .contact-left button:hover{

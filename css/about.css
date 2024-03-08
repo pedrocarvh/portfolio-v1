@@ -2,7 +2,7 @@
 #about{
   width: 100%;
   height: 100vh;
-  background: var(--corBranco);
+  background: var(--corPreto);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@
 .content img{
   height: auto;
   width: 600px;
-  max-width: 100%;
+  max-width: 50%;
   transition: transform 0.3s;
   &:hover {
     transform: scale(1.1);
@@ -59,7 +59,7 @@
 }
 
 .developer-title:hover {
-  color:var(--corPreto);
+  color:var(--corBranco);
 }
 
 .intro-text {
@@ -84,7 +84,7 @@
 .icon-link {
   font-size: 34px;
   color: #8257E5;
-  border: 2px solid #e0e0e0; /* Cinza claro */
+  border: 2px solid transparent; /* Cinza claro */
   border-radius: 10px;
   padding: 2px 6px;
   transition: border-color 0.3s; /* Adiciona uma transição suave para a cor da borda */
@@ -92,9 +92,7 @@
 
 .icon-link:hover {
   transform: scale(1.08);
-  background-color: var(--corBranco);
-  border: 2px solid #8257E5;
-  color: #8257E5;
+  border-color:  var(--corRoxo); 
   transition: .4s;
   cursor: pointer;
 }

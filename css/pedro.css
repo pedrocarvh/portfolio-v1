@@ -24,6 +24,7 @@
   gap: 10px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border: 2px solid transparent;
 }
 
 
@@ -64,9 +65,7 @@ p {
   margin: 10px 0;
   color: #E1E1E6;
   font-size: 16px;
-  line-height: 1.5;
-  text-align: justify;
-  
+  line-height: 1.5; 
 }
 
 strong {
@@ -75,8 +74,7 @@ strong {
 }
 
 .pedro-info:hover{
-  border: 2px solid #8257E5;
-  text-align: justify;
+  border-color: #8257E5;
 }
 
 

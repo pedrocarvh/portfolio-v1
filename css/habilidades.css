@@ -25,7 +25,7 @@
 
 .container .box-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap:15px;
 }
 
@@ -36,6 +36,7 @@
   text-align: center;
   padding:26px 20px;
   transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+  border: 3px solid transparent;
 }
 
 .container .box-container .box img{
@@ -45,8 +46,8 @@
 
 .container .box-container .box h3{
   color:#E1E1E6;
-  font-size: 22px;
-  padding:10px 0;
+  font-size: 16px;
+  padding:8px 0;
 }
 
 .container .box-container .box p{
@@ -54,16 +55,6 @@
   font-size: 15px;
   line-height: 1.8;
   text-align: center;
-}
-
-.container .box-container .box .btn{
-  margin-top: 10px;
-  display: inline-block;
-  background:var(--corRoxo);
-  color:#fff;
-  font-size: 17px;
-  border-radius: 5px;
-  padding: 8px 25px ;
 }
 
 .container .box-container .box .btn:hover{
@@ -74,7 +65,7 @@
   background-color: var(--corPreto);
   box-shadow: 0 10px 15px rgba(0,0,0,.3);
   transform: scale(1.03);
-  border: 3px solid #7401E1;
+  border-color:  #7401E1;
 }
 .container .box-container .box:hover h3 {
   color: #7401E1; 

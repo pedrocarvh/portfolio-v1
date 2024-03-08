@@ -31,6 +31,7 @@
   background-color: #202024;
   height: 100%;
   border-radius: 14px;
+  border: 2px solid transparent;
 }
 
 .image-content {
@@ -140,7 +141,7 @@
 .card:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease;
-  border: 2px solid var(--corRoxo);
+  border-color: var(--corRoxo);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 

@@ -56,6 +56,7 @@
 	position: relative;
 	margin-bottom: 30px;
 	z-index: 99;
+	border: 2px solid transparent;
 }
 .container-experiencia ul li:nth-child(4) {
 	margin-bottom: 0;
@@ -126,7 +127,6 @@ ul li p {
   color: #E1E1E6;
   font-size: 16px;
   line-height: 1.5;
-  text-align: justify;
 }
 ul li a {
 	font-size: 13px;
@@ -191,7 +191,7 @@ ul li a {
 
 .container-experiencia ul li:hover {
 	transform: scale(1.05);
-	border: 2px solid #8257E5;
+	border-color:  #8257E5;
 }
 
 .container-experiencia ul li:hover .date {
